@@ -61,3 +61,25 @@ h2 {
   margin-bottom: 30px;
   font-weight: 600;
 }
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--grey-700);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.links a:hover {
+  background-color: var(--green);
+  color: var(--grey-900);
+}
