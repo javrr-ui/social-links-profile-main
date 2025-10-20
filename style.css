@@ -13,3 +13,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: var(--grey-900);
+  color: var(--white);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: var(--grey-800);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 330px;
+}
